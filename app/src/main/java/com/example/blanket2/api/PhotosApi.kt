@@ -11,7 +11,7 @@ import org.json.JSONObject
 import kotlin.coroutines.suspendCoroutine
 
 const val PHOTOS_URL = "https://api.unsplash.com/photos"
-const val API_KEY = Insert Unsplash API key here
+const val API_KEY = Insert-API-Key-here-before-running
 
 class PhotosApi(private val context: Context) {
     fun loadPhotos(callBack: (List<Photo>) -> Unit){
